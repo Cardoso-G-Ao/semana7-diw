@@ -14,7 +14,7 @@ while (renda !== null && !isNaN(renda) && renda.trim() !== "" && Number(renda) >
         registros.push({ nome: nome, renda: Number(renda), despesa: Number(despesa) });
         console.log(renda, nome);
     } else {
-        console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+        console.log("erro");
     }
 
     renda = prompt("renda:");
